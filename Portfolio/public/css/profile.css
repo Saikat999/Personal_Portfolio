@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(192, 74, 74, 0.6);
+}
+/* .navbar .navbar-nav{
+    background-color: black;
+} */
+.navbar-brand{
+    font-size:25px;
+    font-weight: bold;
+   
+}
+.navbar-brand span{
+    color: rgb(235, 50, 50);
+}
+.navbar-nav a{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-nav a:hover{
+    color:rgb(235, 50, 50) !important;
+}
+   /* End Navbar */
+
+   /* Start Home Section */
+
+.home{
+    height:auto;
+    width:100%;
+    background-color: black !important;
+    padding: 5%;
+}
+.home h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;   
+}
+.home h4{
+    color: white;
+    font-weight: bold;
+    font-size: 32px; 
+}
+.home h2{
+    color: rgb(211, 194, 40);
+    font-weight: bold;
+    font-size: 50px;
+}
+.home .text{
+    margin-top: 15%;
+}
+
+.how-img img{
+    height: 500px;
+    width: auto;
+    padding-left: 100px;
+}
+
+/* End Home section */
+
+/* Start About section */
+.about{
+    height:auto;
+    width:100%;
+    /* background-color: black !important; */
+    padding: 5%;
+}
+
+.about .profile{
+    padding-top:40px;
+}
+.about .profile img{
+    height: 400px;
+    width: 350px;
+}
+.about .about-me{
+    padding-top:80px;
+}
+
+/* End About section */
+
+/* Start Work section */
+.work{
+    height:auto;
+    width:100%;
+    background-color: black !important;
+    padding: 5%;
+}
+.work .card-deck{
+    margin-top: 5%;
+   
+    cursor: pointer;
+}
+.work .card-deck .card{
+    transition: all 0.2s ease;
+    background: rgb(58, 55, 55);
+    color: white;
+}
+/* .work .card-deck .card h5{
+    color: crimson;
+}
+.work .card-deck .card p{
+    color: white;
+
+} */
+.work .card-deck .card:hover{
+    transform: scale(1.07);
+    background: crimson;
+    color: white;
+}
