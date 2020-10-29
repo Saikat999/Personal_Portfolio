@@ -19,4 +19,4 @@ use App\Http\Controllers\MainController;
 // });
 Route::get('/',[MainController::class,'profile']);
 Route::get('/profile',[MainController::class,'profile']);
-Route::post('/contact',[MainController::class,'store'])->name('contact.store');
+Route::post('/store',[MainController::class,'store']);

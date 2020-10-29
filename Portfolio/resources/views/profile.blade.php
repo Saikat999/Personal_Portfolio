@@ -276,7 +276,7 @@
                     <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                     </p>
-                    <a href="" type="button" class="btn btn-fb bg-primary text-white"><i
+                    <a href="https://www.facebook.com/saikat.hasan.75/" type="button" class="btn btn-fb bg-primary text-white"><i
                             class="fab fa-facebook-f pr-1"></i> Facebook</a>
                     <a href="" type="button" class="btn btn-ins bg-danger text-white"><i
                             class="fab fa-instagram pr-1"></i> Instagram</a>
@@ -289,7 +289,7 @@
                 </div>
                 <div class="col-md-6 send-msg">
                     <h4>Message me</h4>
-                    <form action="{{route('contact.store')}}" method="POST">
+                    <form action="{{URL::to('/store')}}" method="POST">
                         @csrf
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" placeholder="Name" id="usr">
@@ -306,9 +306,6 @@
                         </div>
                         <div class="form-group">
                             @if($message= Session::get('status'))
-                            <!-- <div class="alert-primary text-center">
-                                <p>{{$message}}</p>
-                            </div> -->
                             <div class="alert alert-success text-center alert-dismissible fade show" role="alert">
                                 <p><strong>Successfully !</strong> {{$message}}</p>
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
