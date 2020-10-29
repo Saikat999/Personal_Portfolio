@@ -17,5 +17,6 @@ use App\Http\Controllers\MainController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
+Route::get('/',[MainController::class,'profile']);
 Route::get('/profile',[MainController::class,'profile']);
+Route::post('/contact',[MainController::class,'store'])->name('contact.store');

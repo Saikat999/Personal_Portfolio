@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{asset('css/profile.css')}}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <title>Portfolio</title>
 </head>
 
@@ -16,7 +17,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">Portfo<span class="brand1">lio</span></a>
+                <a class="navbar-brand text-white" href="#">Portfo<span class="typing-3 brand1"></span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,11 +26,11 @@
                     <ul class="navbar-nav ml-auto">
                         <div class="navbar-nav">
 
-                            <a class="nav-item nav-link active" href="#">Home</a>
-                            <a class="nav-item nav-link" href="#">About</a>
-                            <a class="nav-item nav-link" href="#">Work</a>
-                            <a class="nav-item nav-link" href="#">Skills</a>
-                            <a class="nav-item nav-link" href="#">Contact</a>
+                            <a class="nav-item nav-link active" href="#home">Home</a>
+                            <a class="nav-item nav-link" href="#about">About</a>
+                            <a class="nav-item nav-link" href="#work">Work</a>
+                            <a class="nav-item nav-link" href="#skill">Skills</a>
+                            <a class="nav-item nav-link" href="#contact">Contact</a>
 
                         </div>
                     </ul>
@@ -42,7 +43,7 @@
     <!-- End Navbar -->
 
     <!-- Start Home Section -->
-    <section class="home">
+    <section class="home" id="home">
         <div class="back">
             <div class="container">
                 <div class="row">
@@ -50,8 +51,8 @@
                     <div class="col-md-6 text">
                         <h5>Hello, My name is</h5>
                         <h2>Md. Saikat Hasan</h2>
-                        <h4>And I'm a <span class="text-danger">Web Developer</span></h4><br>
-                        <a href="" type="button" class="btn btn-danger btn-lg">About Me</a>
+                        <h4>And I'm a <span class="typing"></span></h4><br>
+                        <a href="#about" type="button" class="btn btn-danger btn-lg">About more</a>
                     </div>
                     <!-- <div class="col-md-6 how-img">
                     <img src="../image/profile-1.png" class="img-fluid" alt="" />
@@ -63,7 +64,7 @@
     <!-- End Home Section -->
 
     <!-- Start About section -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="text-center text-black font-weight-bold">About Me</h2>
             <h5 class="text-center text-danger">--Who I am--</h5>
@@ -72,7 +73,7 @@
                     <img src="../image/profile-5.jpg" class="img-fluid" alt="" />
                 </div>
                 <div class="col-md-7 about-me">
-                    <h4 class="font-weight-bold">I'm Saikat and I'm a <span class="text-danger">Web Developer</span>
+                    <h4 class="font-weight-bold">I'm Saikat and I'm a <span class="typing-2 text-danger"></span>
                     </h4>
                     <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -81,7 +82,8 @@
                         unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
                         Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
                         including versions of Lorem Ipsum</p>
-                    <a href="" type="button" class="btn btn-danger btn-lg">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1j4SPgn4UObxaIAiHrfTAuxMbfcDA7RQV/view?usp=sharing"
+                        type="button" class="btn btn-danger btn-lg">Download CV</a>
                 </div>
 
             </div>
@@ -90,7 +92,7 @@
     <!-- End About section -->
 
     <!-- Start Work section -->
-    <section class="work">
+    <section class="work" id="work">
         <div class="container">
             <h2 class="text-center text-white font-weight-bold">My Works</h2>
             <h5 class="text-center text-danger">--What I have done--</h5>
@@ -142,7 +144,7 @@
     <!-- End Work section -->
 
     <!-- Start Skills section -->
-    <section class="skill">
+    <section class="skill" id="skill">
         <div class="container">
             <h2 class="text-center text-black font-weight-bold">My Skills</h2>
             <h5 class="text-center text-danger">--What I know--</h5>
@@ -245,6 +247,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="skill-item">
+                        <h6 class="heading">Git</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+                            </div>
+                        </div>
+                    </div>
 
 
 
@@ -256,7 +266,7 @@
     <!-- End Skills section -->
 
     <!-- Start Contact section -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <h2 class="text-center text-white font-weight-bold">Contact Me</h2>
             <h5 class="text-center text-danger">--Get in touch--</h5>
@@ -270,22 +280,45 @@
                             class="fab fa-facebook-f pr-1"></i> Facebook</a>
                     <a href="" type="button" class="btn btn-ins bg-danger text-white"><i
                             class="fab fa-instagram pr-1"></i> Instagram</a>
-                    <a href="" type="button" class="btn btn-li bg-info text-white"><i
-                            class="fab fa-linkedin-in pr-1"></i> Linkedin</a>
-                    <a href="" type="button" class="btn btn- bg-dark text-white"><i class="fab fa-github pr-1"></i>
+                    <a href="https://www.linkedin.com/in/saikat-hasan-65b215180/" type="button"
+                        class="btn btn-li bg-info text-white"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</a>
+                    <a href="https://github.com/Saikat999" type="button" class="btn btn- bg-dark text-white"><i
+                            class="fab fa-github pr-1"></i>
                         Github</a>
 
                 </div>
                 <div class="col-md-6 send-msg">
                     <h4>Message me</h4>
-                    <div class="form-group"> <input type="text" class="form-control" placeholder="Name" id="usr"> </div>
-                    <div class="form-group"> <input type="email" class="form-control" placeholder="Email" id="pwd">
-                    </div>
-                    <div class="form-group"> <input type="text" class="form-control" placeholder="Subject" id="usr">
-                    </div>
-                    <div class="form-group"> <textarea class="form-control" rows="5" id="comment"
-                            placeholder="Message.."></textarea> </div>
-                    <div class="form-group"> <button type="submit" class="btn btn-danger">Send message</button> </div>
+                    <form action="{{route('contact.store')}}" method="POST">
+                        @csrf
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Name" id="usr">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Email" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" id="usr">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="msg" rows="5" id="comment"
+                                placeholder="Message.."></textarea>
+                        </div>
+                        <div class="form-group">
+                            @if($message= Session::get('status'))
+                            <!-- <div class="alert-primary text-center">
+                                <p>{{$message}}</p>
+                            </div> -->
+                            <div class="alert alert-success text-center alert-dismissible fade show" role="alert">
+                                <p><strong>Successfully !</strong> {{$message}}</p>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            @endif
+                            <button type="submit" class="btn btn-danger">Send message</button>
+                        </div>
+                    </form>
                 </div>
 
             </div>
@@ -301,7 +334,7 @@
         <div class="footer-copyright text-center py-3">Created By <a href="#" class="text-warning">Saikat Hasan
             </a> | © 2020 All rights reserved. </div> <!-- Copyright -->
     </footer>
-    
+
     <!-- End Footer Section -->
 
 
@@ -310,6 +343,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
 </body>
 
 </html>
