@@ -131,8 +131,13 @@ html{
 .work .card-deck .card:hover{
     transform: scale(1.07);
     background: crimson;
-    color: white;
+    color: #000;
 }
+.work .card-deck h5{
+    color: black;
+}
+
+
 
 /* ---------------------End work section--------------------- */
 

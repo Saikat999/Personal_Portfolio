@@ -100,11 +100,10 @@
                 <div class="card">
                     <div class="card-body">
                         <a href="">
-                            <h5 class="card-title text-center font-weight-bold">Online CV Maker</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a
-                                natural
-                                lead-in
-                                to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title text-center font-weight-bold">Tech House E-commerce</h5>
+                            <p class="card-text text-justify">Build a responsive e-commerce site where users can visit the sites and get their preferable products.
+                                And also they can pick and cart their selectable products with resonable price in online.
+                            </p>
                         </a>
 
                     </div>
@@ -112,24 +111,30 @@
                 <div class="card">
                     <div class="card-body">
                         <a href="">
-                            <h5 class="card-title text-center font-weight-bold">Restaurant Gallery</h5>
-                            <p class="card-text text-justify">This card has supporting text below as a natural lead-in
-                                to
-                                additional
-                                content.</p>
+                            <h5 class="card-title text-center font-weight-bold">Online CV Maker</h5>
+                            <p class="card-text text-justify">Build a website where a person make his/his resume with preferable formate
+                                by inserting his/her info.
+                            </p>
                         </a>
 
                     </div>
                 </div>
+                {{-- <div class="card">
+                    <div class="card-body">
+                        <a href="">
+                            <h5 class="card-title text-center font-weight-bold">Restaurant Gallery</h5>
+                            <p class="card-text text-justify">Build a responsive site where an user can see the resturant list and also add, delete and edit restaurants.</p>
+                        </a>
+
+                    </div>
+                </div> --}}
                 <div class="card">
                     <div class="card-body">
                         <a href="">
                             <h5 class="card-title text-center font-weight-bold">Air Quality Monitoring</h5>
-                            <p class="card-text text-justify">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                            <p class="card-text text-justify">Develop a system which takes the real time data from weather and 
+                                predict whether the air is good or bad for human being and shown the output in android mobile.
+                            </p>
                         </a>
 
                     </div>
