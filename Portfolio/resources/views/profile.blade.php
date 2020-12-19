@@ -75,13 +75,9 @@
                 <div class="col-md-7 about-me">
                     <h4 class="font-weight-bold">I'm Saikat and I'm a <span class="typing-2 text-danger"></span>
                     </h4>
-                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum</p>
+                    <p class="text-justify">I have completed my graduation on B.S. in Computer Science & Engineering (CSE) from NorthSouth University. I started my career with Web Applications Designing & Developing and also Software Developing. I am working as both Front-End and Back-End Developer. </p>
+                    <p class="text-justify">Learning things like developing, designing, create projects is a habit me. Every projects of my work, I'm trying to learn new technologies and developing related stuff which is helping me to enrich my knowledge in this area.</p>
+                    <p class="text-justify">I like to travel. I believe travelling gives you a new perspective to everything. You get to know a lot about the different cultures, the cuisines, their history, the language and all the small unique things every place has to offer.</p>
                     <a href="https://drive.google.com/file/d/1j4SPgn4UObxaIAiHrfTAuxMbfcDA7RQV/view?usp=sharing"
                         type="button" class="btn btn-danger btn-lg">Download CV</a>
                 </div>
@@ -159,13 +155,7 @@
                     <h4 class="font-weight-bold">My Creative <span class="text-danger">Skills</span> & <span
                             class="text-danger">Experiences</span>
                     </h4>
-                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum</p>
+                    <p class="text-justify"> I am working as both Front-End and Back-End Developer for last one year. I did these works by using PHP & Laravel, HTML & CSS and Bootstrap-4 specially. I gained this skills form my academic years and still learning about on it. In addtion to this, I also gained in C programming, JAVA, JavaScript, SQL, MyQSL, R programming and so on. I also know how to use Git or version controll system.</p>
                     <a href="" type="button" class="btn btn-danger btn-lg">Read more</a>
                 </div>
 
@@ -278,12 +268,10 @@
             <div class="row">
                 <div class="col-md-6 find-me">
                     <h4>Get in touch</h4>
-                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    </p>
+                    <p class="text-justify">Feel free to get in touch. Messages sent with this contact form go directly into my inbox. It is the best way to contact me. Or you can contact me by given social links.</p>
                     <a href="https://www.facebook.com/saikat.hasan.75/" type="button" class="btn btn-fb bg-primary text-white"><i
                             class="fab fa-facebook-f pr-1"></i> Facebook</a>
-                    <a href="" type="button" class="btn btn-ins bg-danger text-white"><i
+                    <a href="#" type="button" class="btn btn-ins bg-danger text-white"><i
                             class="fab fa-instagram pr-1"></i> Instagram</a>
                     <a href="https://www.linkedin.com/in/saikat-hasan-65b215180/" type="button"
                         class="btn btn-li bg-info text-white"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</a>
